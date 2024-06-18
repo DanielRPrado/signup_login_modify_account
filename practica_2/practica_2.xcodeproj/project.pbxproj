@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35341EB82BC5B4B300122967 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35341EB72BC5B4B300122967 /* AppDelegate.swift */; };
+		35341EBA2BC5B4B300122967 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35341EB92BC5B4B300122967 /* SceneDelegate.swift */; };
+		35341EBC2BC5B4B300122967 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35341EBB2BC5B4B300122967 /* ViewController.swift */; };
+		35341EBF2BC5B4B300122967 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35341EBD2BC5B4B300122967 /* Main.storyboard */; };
+		35341EC22BC5B4B300122967 /* practica_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35341EC02BC5B4B300122967 /* practica_2.xcdatamodeld */; };
+		35341EC42BC5B4B400122967 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35341EC32BC5B4B400122967 /* Assets.xcassets */; };
+		35341EC72BC5B4B400122967 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35341EC52BC5B4B400122967 /* LaunchScreen.storyboard */; };
+		35341ED22BC5B4B500122967 /* practica_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35341ED12BC5B4B500122967 /* practica_2Tests.swift */; };
+		35341EDC2BC5B4B500122967 /* practica_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35341EDB2BC5B4B500122967 /* practica_2UITests.swift */; };
+		35341EDE2BC5B4B500122967 /* practica_2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35341EDD2BC5B4B500122967 /* practica_2UITestsLaunchTests.swift */; };
+		35341EEF2BC5BE7900122967 /* Principal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35341EEE2BC5BE7900122967 /* Principal.swift */; };
+		3567AEF32BC858A300A612A3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3567AEF22BC858A300A612A3 /* GoogleService-Info.plist */; };
+		3567AEF62BC8598A00A612A3 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3567AEF52BC8598A00A612A3 /* FirebaseAnalytics */; };
+		3567AEF82BC8598A00A612A3 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3567AEF72BC8598A00A612A3 /* FirebaseAuth */; };
+		3567AEFA2BC8598A00A612A3 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 3567AEF92BC8598A00A612A3 /* FirebaseAuthCombine-Community */; };
+		3567AEFC2BC8598A00A612A3 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 3567AEFB2BC8598A00A612A3 /* FirebaseDatabase */; };
+		3567AEFE2BC8598A00A612A3 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3567AEFD2BC8598A00A612A3 /* FirebaseDatabaseSwift */; };
+		3567AF002BC8598A00A612A3 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 3567AEFF2BC8598A00A612A3 /* FirebaseStorageCombine-Community */; };
+		3567AF022BC85F5C00A612A3 /* CrearCuenta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3567AF012BC85F5C00A612A3 /* CrearCuenta.swift */; };
+		35A8E4B72BD1A06E00179E74 /* EditarCuenta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A8E4B62BD1A06E00179E74 /* EditarCuenta.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35341ECE2BC5B4B500122967 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35341EAC2BC5B4B300122967 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35341EB32BC5B4B300122967;
+			remoteInfo = practica_2;
+		};
+		35341ED82BC5B4B500122967 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35341EAC2BC5B4B300122967 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35341EB32BC5B4B300122967;
+			remoteInfo = practica_2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35341EB42BC5B4B300122967 /* practica_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practica_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35341EB72BC5B4B300122967 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35341EB92BC5B4B300122967 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		35341EBB2BC5B4B300122967 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		35341EBE2BC5B4B300122967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35341EC12BC5B4B300122967 /* practica_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = practica_2.xcdatamodel; sourceTree = "<group>"; };
+		35341EC32BC5B4B400122967 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35341EC62BC5B4B400122967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35341EC82BC5B4B400122967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35341ECD2BC5B4B500122967 /* practica_2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practica_2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35341ED12BC5B4B500122967 /* practica_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practica_2Tests.swift; sourceTree = "<group>"; };
+		35341ED72BC5B4B500122967 /* practica_2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practica_2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35341EDB2BC5B4B500122967 /* practica_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practica_2UITests.swift; sourceTree = "<group>"; };
+		35341EDD2BC5B4B500122967 /* practica_2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practica_2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		35341EEE2BC5BE7900122967 /* Principal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Principal.swift; sourceTree = "<group>"; };
+		3567AEF22BC858A300A612A3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3567AF012BC85F5C00A612A3 /* CrearCuenta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrearCuenta.swift; sourceTree = "<group>"; };
+		35A8E4B62BD1A06E00179E74 /* EditarCuenta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarCuenta.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35341EB12BC5B4B300122967 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3567AEFE2BC8598A00A612A3 /* FirebaseDatabaseSwift in Frameworks */,
+				3567AEF62BC8598A00A612A3 /* FirebaseAnalytics in Frameworks */,
+				3567AEFA2BC8598A00A612A3 /* FirebaseAuthCombine-Community in Frameworks */,
+				3567AEFC2BC8598A00A612A3 /* FirebaseDatabase in Frameworks */,
+				3567AF002BC8598A00A612A3 /* FirebaseStorageCombine-Community in Frameworks */,
+				3567AEF82BC8598A00A612A3 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35341ECA2BC5B4B500122967 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35341ED42BC5B4B500122967 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35341EAB2BC5B4B300122967 = {
+			isa = PBXGroup;
+			children = (
+				35341EB62BC5B4B300122967 /* practica_2 */,
+				35341ED02BC5B4B500122967 /* practica_2Tests */,
+				35341EDA2BC5B4B500122967 /* practica_2UITests */,
+				35341EB52BC5B4B300122967 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35341EB52BC5B4B300122967 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35341EB42BC5B4B300122967 /* practica_2.app */,
+				35341ECD2BC5B4B500122967 /* practica_2Tests.xctest */,
+				35341ED72BC5B4B500122967 /* practica_2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35341EB62BC5B4B300122967 /* practica_2 */ = {
+			isa = PBXGroup;
+			children = (
+				35341EB72BC5B4B300122967 /* AppDelegate.swift */,
+				3567AEF22BC858A300A612A3 /* GoogleService-Info.plist */,
+				35341EB92BC5B4B300122967 /* SceneDelegate.swift */,
+				35341EBB2BC5B4B300122967 /* ViewController.swift */,
+				35341EBD2BC5B4B300122967 /* Main.storyboard */,
+				35341EC32BC5B4B400122967 /* Assets.xcassets */,
+				35341EC52BC5B4B400122967 /* LaunchScreen.storyboard */,
+				35341EC82BC5B4B400122967 /* Info.plist */,
+				35341EC02BC5B4B300122967 /* practica_2.xcdatamodeld */,
+				35341EEE2BC5BE7900122967 /* Principal.swift */,
+				3567AF012BC85F5C00A612A3 /* CrearCuenta.swift */,
+				35A8E4B62BD1A06E00179E74 /* EditarCuenta.swift */,
+			);
+			path = practica_2;
+			sourceTree = "<group>";
+		};
+		35341ED02BC5B4B500122967 /* practica_2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				35341ED12BC5B4B500122967 /* practica_2Tests.swift */,
+			);
+			path = practica_2Tests;
+			sourceTree = "<group>";
+		};
+		35341EDA2BC5B4B500122967 /* practica_2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				35341EDB2BC5B4B500122967 /* practica_2UITests.swift */,
+				35341EDD2BC5B4B500122967 /* practica_2UITestsLaunchTests.swift */,
+			);
+			path = practica_2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35341EB32BC5B4B300122967 /* practica_2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35341EE12BC5B4B500122967 /* Build configuration list for PBXNativeTarget "practica_2" */;
+			buildPhases = (
+				35341EB02BC5B4B300122967 /* Sources */,
+				35341EB12BC5B4B300122967 /* Frameworks */,
+				35341EB22BC5B4B300122967 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = practica_2;
+			packageProductDependencies = (
+				3567AEF52BC8598A00A612A3 /* FirebaseAnalytics */,
+				3567AEF72BC8598A00A612A3 /* FirebaseAuth */,
+				3567AEF92BC8598A00A612A3 /* FirebaseAuthCombine-Community */,
+				3567AEFB2BC8598A00A612A3 /* FirebaseDatabase */,
+				3567AEFD2BC8598A00A612A3 /* FirebaseDatabaseSwift */,
+				3567AEFF2BC8598A00A612A3 /* FirebaseStorageCombine-Community */,
+			);
+			productName = practica_2;
+			productReference = 35341EB42BC5B4B300122967 /* practica_2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35341ECC2BC5B4B500122967 /* practica_2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35341EE42BC5B4B500122967 /* Build configuration list for PBXNativeTarget "practica_2Tests" */;
+			buildPhases = (
+				35341EC92BC5B4B500122967 /* Sources */,
+				35341ECA2BC5B4B500122967 /* Frameworks */,
+				35341ECB2BC5B4B500122967 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35341ECF2BC5B4B500122967 /* PBXTargetDependency */,
+			);
+			name = practica_2Tests;
+			productName = practica_2Tests;
+			productReference = 35341ECD2BC5B4B500122967 /* practica_2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35341ED62BC5B4B500122967 /* practica_2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35341EE72BC5B4B500122967 /* Build configuration list for PBXNativeTarget "practica_2UITests" */;
+			buildPhases = (
+				35341ED32BC5B4B500122967 /* Sources */,
+				35341ED42BC5B4B500122967 /* Frameworks */,
+				35341ED52BC5B4B500122967 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35341ED92BC5B4B500122967 /* PBXTargetDependency */,
+			);
+			name = practica_2UITests;
+			productName = practica_2UITests;
+			productReference = 35341ED72BC5B4B500122967 /* practica_2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35341EAC2BC5B4B300122967 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					35341EB32BC5B4B300122967 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					35341ECC2BC5B4B500122967 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 35341EB32BC5B4B300122967;
+					};
+					35341ED62BC5B4B500122967 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 35341EB32BC5B4B300122967;
+					};
+				};
+			};
+			buildConfigurationList = 35341EAF2BC5B4B300122967 /* Build configuration list for PBXProject "practica_2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35341EAB2BC5B4B300122967;
+			packageReferences = (
+				3567AEF42BC8598A00A612A3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 35341EB52BC5B4B300122967 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35341EB32BC5B4B300122967 /* practica_2 */,
+				35341ECC2BC5B4B500122967 /* practica_2Tests */,
+				35341ED62BC5B4B500122967 /* practica_2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35341EB22BC5B4B300122967 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35341EC72BC5B4B400122967 /* LaunchScreen.storyboard in Resources */,
+				3567AEF32BC858A300A612A3 /* GoogleService-Info.plist in Resources */,
+				35341EC42BC5B4B400122967 /* Assets.xcassets in Resources */,
+				35341EBF2BC5B4B300122967 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35341ECB2BC5B4B500122967 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35341ED52BC5B4B500122967 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35341EB02BC5B4B300122967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35341EEF2BC5BE7900122967 /* Principal.swift in Sources */,
+				35341EBC2BC5B4B300122967 /* ViewController.swift in Sources */,
+				35341EB82BC5B4B300122967 /* AppDelegate.swift in Sources */,
+				3567AF022BC85F5C00A612A3 /* CrearCuenta.swift in Sources */,
+				35341EBA2BC5B4B300122967 /* SceneDelegate.swift in Sources */,
+				35341EC22BC5B4B300122967 /* practica_2.xcdatamodeld in Sources */,
+				35A8E4B72BD1A06E00179E74 /* EditarCuenta.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35341EC92BC5B4B500122967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35341ED22BC5B4B500122967 /* practica_2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35341ED32BC5B4B500122967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35341EDE2BC5B4B500122967 /* practica_2UITestsLaunchTests.swift in Sources */,
+				35341EDC2BC5B4B500122967 /* practica_2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35341ECF2BC5B4B500122967 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35341EB32BC5B4B300122967 /* practica_2 */;
+			targetProxy = 35341ECE2BC5B4B500122967 /* PBXContainerItemProxy */;
+		};
+		35341ED92BC5B4B500122967 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35341EB32BC5B4B300122967 /* practica_2 */;
+			targetProxy = 35341ED82BC5B4B500122967 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35341EBD2BC5B4B300122967 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35341EBE2BC5B4B300122967 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35341EC52BC5B4B400122967 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35341EC62BC5B4B400122967 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35341EDF2BC5B4B500122967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		35341EE02BC5B4B500122967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35341EE22BC5B4B500122967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = practica_2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "up.practica-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35341EE32BC5B4B500122967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = practica_2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "up.practica-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		35341EE52BC5B4B500122967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "up.practica-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/practica_2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/practica_2";
+			};
+			name = Debug;
+		};
+		35341EE62BC5B4B500122967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "up.practica-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/practica_2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/practica_2";
+			};
+			name = Release;
+		};
+		35341EE82BC5B4B500122967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "up.practica-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = practica_2;
+			};
+			name = Debug;
+		};
+		35341EE92BC5B4B500122967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "up.practica-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = practica_2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35341EAF2BC5B4B300122967 /* Build configuration list for PBXProject "practica_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35341EDF2BC5B4B500122967 /* Debug */,
+				35341EE02BC5B4B500122967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35341EE12BC5B4B500122967 /* Build configuration list for PBXNativeTarget "practica_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35341EE22BC5B4B500122967 /* Debug */,
+				35341EE32BC5B4B500122967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35341EE42BC5B4B500122967 /* Build configuration list for PBXNativeTarget "practica_2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35341EE52BC5B4B500122967 /* Debug */,
+				35341EE62BC5B4B500122967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35341EE72BC5B4B500122967 /* Build configuration list for PBXNativeTarget "practica_2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35341EE82BC5B4B500122967 /* Debug */,
+				35341EE92BC5B4B500122967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3567AEF42BC8598A00A612A3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.24.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3567AEF52BC8598A00A612A3 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3567AEF42BC8598A00A612A3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		3567AEF72BC8598A00A612A3 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3567AEF42BC8598A00A612A3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		3567AEF92BC8598A00A612A3 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3567AEF42BC8598A00A612A3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		3567AEFB2BC8598A00A612A3 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3567AEF42BC8598A00A612A3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		3567AEFD2BC8598A00A612A3 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3567AEF42BC8598A00A612A3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		3567AEFF2BC8598A00A612A3 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3567AEF42BC8598A00A612A3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		35341EC02BC5B4B300122967 /* practica_2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				35341EC12BC5B4B300122967 /* practica_2.xcdatamodel */,
+			);
+			currentVersion = 35341EC12BC5B4B300122967 /* practica_2.xcdatamodel */;
+			path = practica_2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 35341EAC2BC5B4B300122967 /* Project object */;
+}
